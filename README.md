@@ -2,6 +2,16 @@
 
 A Chrome extension that allows you to preview and download thumbnails from YouTube videos.
 
+<img
+ src="./demo.png" 
+ style="max-width: 100%;
+         max-height: 240px;
+         display: block;
+         border-radius: 10px;
+         border: 1px solid #aaa;
+     "
+ />
+
 ## Features
 
 - Preview video thumbnails directly from the extension popup
