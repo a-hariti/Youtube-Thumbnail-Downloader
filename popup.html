@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Thumbnail Previewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #000000;
+      --border-color: #ccc;
+      --button-bg: #FF0000;
+      --button-hover: #CC0000;
+      --error-color: #ff0000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #202124;
+        --text-color: #ffffff;
+        --border-color: #5f6368;
+        --button-bg: #FF0000;
+        --button-hover: #CC0000;
+        --error-color: #ff4444;
+      }
+    }
+
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+    }
+
+    #thumbnail-container {
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    #thumbnail {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 8px 24px;
+      background-color: var(--button-bg);
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: var(--button-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    #error-message {
+      color: var(--error-color);
+      margin-top: 10px;
+      text-align: center;
+      display: none;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="thumbnail-container">
+    <img id="thumbnail" style="display: none;">
+    <a id="download-link" class="button" style="display: none;">Download</a>
+  </div>
+  <div id="error-message">Please navigate to a YouTube video page</div>
+  <script src="popup.js"></script>
+</body>
+</html>
