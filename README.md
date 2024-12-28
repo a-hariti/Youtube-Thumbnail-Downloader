@@ -2,7 +2,7 @@
 
 A Chrome extension that allows you to preview and download thumbnails from YouTube videos.
 
-![Demo](./demo.png)
+![Demo](./marketing/small.png)
 
 ## Features
 
@@ -24,15 +24,6 @@ A Chrome extension that allows you to preview and download thumbnails from YouTu
 2. Click the extension icon in your browser toolbar
 3. The video's thumbnail will be displayed in the popup
 4. Click the "Download Thumbnail" button to save the image
-
-## Required Files
-
-Before loading the extension, make sure you have created icons with the following sizes:
-- icon16.png (16x16)
-- icon48.png (48x48)
-- icon128.png (128x128)
-
-You can create these icons using any image editor with a red background and "YT" text in white.
 
 ## Note
 
