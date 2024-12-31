@@ -2,7 +2,9 @@
 
 A Chrome extension that allows you to preview and download thumbnails from YouTube videos.
 
-![Demo](./marketing/small.png)
+![Demo](./marketing/marquee.png)
+
+Get the extension
 
 ## Features
 
@@ -28,6 +30,10 @@ A Chrome extension that allows you to preview and download thumbnails from YouTu
 ## Note
 
 This extension requires you to be on a YouTube video page to function. If you're not on a YouTube video page, you'll see an error message.
+
+I built this extension for educational purposes only, the codebase is intentionally simple and readable.
+
+The YouTube thumbnails are subject to copyright, please use responsibly.
 
 ## License
 

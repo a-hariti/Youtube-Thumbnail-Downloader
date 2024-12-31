@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "YouTube Thumbnail Previewer",
   "version": "1.0",
-  "description": "Preview and download YouTube video thumbnails",
-  "permissions": ["activeTab", "downloads"],
+  "description": "Preview YouTube video thumbnails",
+  "permissions": ["activeTab"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
